@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Владимир Ганькин](https://up.htmlacademy.ru/htmlcss-individual/1/user/2493809).
-* Наставник: `Неизвестно`.
+- Студент: [Владимир Ганькин](https://up.htmlacademy.ru/htmlcss-individual/1/user/2493809).
+- Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
 
 ---
 
