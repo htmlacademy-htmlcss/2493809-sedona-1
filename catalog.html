@@ -69,23 +69,23 @@
             <legend class="hotels-filter-title">Инфраструктура:</legend>
             <ul class="hotels-filter-list">
               <li class="hotels-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="swimming-pool" checked>
-                  <span class="control-name">Бассейн</span>
+                <label class="checkbox">
+                  <input class="checkbox-input" type="checkbox" name="swimming-pool" checked>
+                  <span class="checkbox-name">Бассейн</span>
                 </label>
               </li>
 
               <li class="hotels-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="parking" checked>
-                  <span class="control-name">Парковка</span>
+                <label class="checkbox">
+                  <input class="checkbox-input" type="checkbox" name="parking" checked>
+                  <span class="checkbox-name">Парковка</span>
                 </label>
               </li>
 
               <li class="hotels-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="wifi">
-                  <span class="control-name">Wi-Fi</span>
+                <label class="checkbox">
+                  <input class="checkbox-input" type="checkbox" name="wifi">
+                  <span class="checkbox-name">Wi-Fi</span>
                 </label>
               </li>
             </ul>
@@ -95,23 +95,23 @@
             <legend class="hotels-filter-title">Тип Жилья:</legend>
             <ul class="hotels-filter-list">
               <li class="hotels-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="lodging-type" value="hotel" checked>
-                  <span class="control-name">Гостиница</span>
+                <label class="radio">
+                  <input class="radio-input" type="radio" name="lodging-type" value="hotel" checked>
+                  <span class="radio-name">Гостиница</span>
                 </label>
               </li>
 
               <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="lodging-type" value="motel">
-                  <span class="control-name">Мотель</span>
+                <label class="radio">
+                  <input class="radio-input" type="radio" name="lodging-type" value="motel">
+                  <span class="radio-name">Мотель</span>
                 </label>
               </li>
 
               <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="lodging-type" value="apartment">
-                  <span class="control-name">Апартаменты</span>
+                <label class="radio">
+                  <input class="radio-input" type="radio" name="lodging-type" value="apartment">
+                  <span class="radio-name">Апартаменты</span>
                 </label>
               </li>
             </ul>
@@ -119,14 +119,14 @@
 
           <fieldset class="hotels-filter-group">
             <legend class="hotels-filter-title">Стоимость, ₽:</legend>
-            <label class="control">
-              <input class="control-input cost-control-input" type="text" name="start-range" value="0">
-              <span class="control-name cost-control-name">От</span>
-            </label>
-            <label class="control">
-              <input class="control-input cost-control-input" type="text" name="end-range" value="9000">
-              <span class="control-name cost-control-name">До</span>
-            </label>
+            <div class="textbox">
+              <input class="textbox-input" id="textbox-from" type="text" name="start-range" value="0">
+              <label class="textbox-name" for="textbox-from">От</label>
+            </div>
+            <div class="textbox">
+              <input class="textbox-input" id="textbox-to" type="text" name="end-range" value="9000">
+              <label class="textbox-name" for="textbox-to">До</label>
+            </div>
           </fieldset>
           <div class="hotels-filter-buttons">
             <button class="button button-apply" type="submit">Применить</button>

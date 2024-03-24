@@ -222,18 +222,26 @@ body {
   font-weight: 700;
 }
 
-.control-name {
-  font-size: 18px;
+.textbox-name {
   line-height: 23px;
 }
 
-.cost-control-input {
-  font-size: 18px;
+.checkbox-name {
+  line-height: 23px;
+}
+
+.radio-name {
+  line-height: 23px;
+}
+
+.textbox-input {
+  font-family: inherit;
+  font-size: inherit;
   line-height: 24px;
   font-weight: 700;
 }
 
-.cost-control-name {
+.textbox-name {
   line-height: 24px;
   text-align: right;
   text-transform: lowercase;
