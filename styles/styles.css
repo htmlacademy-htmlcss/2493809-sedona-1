@@ -51,6 +51,8 @@ body {
 }
 
 .button-big {
+  display: block;
+  width: 376px;
   font-size: 20px;
   line-height: 36px;
 }
@@ -58,9 +60,9 @@ body {
 /* Header */
 
 .page-header {
+  margin: 0 auto;
   display: flex;
   width: 1060px;
-  margin: 0 auto;
 }
 
 .navigation-list {
@@ -89,6 +91,8 @@ body {
 /* Features */
 
 .features-main-title {
+  width: 620px;
+  margin: 0 auto;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -107,7 +111,12 @@ body {
   padding: 0;
 }
 
+.features-list-row {
+  display: flex;
+}
+
 .features-item {
+  width: 400px;
   color: #000000;
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -117,18 +126,35 @@ body {
 }
 
 .features-item-illustrated {
+  display: flex;
+  width: 1200px;
   color: #FFFFFF;
   background-color: #82B3D3;
 }
 
 .features-item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
   text-align: center;
 }
 
 .features-title {
+  width: 175px;
+  margin: 0 auto;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+}
+
+.features-description {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.features-item-image img {
+  display: block;
 }
 
 /* Promo */
@@ -138,6 +164,8 @@ body {
 }
 
 .promo-title {
+  width: 505px;
+  margin: 0 auto;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -152,8 +180,14 @@ body {
 }
 
 .promo-list {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
+}
+
+.promo-item {
+  width: 400px;
 }
 
 .promo-item-title {
@@ -165,6 +199,8 @@ body {
 }
 
 .promo-item-description {
+  width: 230px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -183,8 +219,14 @@ body {
 }
 
 .hotel-search-main {
+  width: 592px;
+  margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
+}
+
+.button-search {
+  margin: 0 auto;
 }
 
 /* Newsletter */
@@ -205,12 +247,21 @@ body {
 }
 
 .newsletter-description {
+  width: 475px;
+  margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
 }
 
+.newsletter-form {
+  display: flex;
+  width: 684px;
+  margin: 0 auto;
+}
+
 .email-input {
+  width: 452px;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
@@ -218,6 +269,7 @@ body {
 }
 
 .button-subscribe {
+  width: 232px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -227,11 +279,22 @@ body {
 /* Footer */
 
 .page-footer-container {
+  display: flex;
+  justify-content: space-between;
   width: 1060px;
   margin: 0 auto;
 }
 
+.social-list {
+  display: flex;
+  width: 142px;
+  margin: 0;
+  padding: 0;
+}
+
 .footer-adress-phone {
+  display: block;
+  width: 331px;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
