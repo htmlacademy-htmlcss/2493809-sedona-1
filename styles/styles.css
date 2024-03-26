@@ -304,6 +304,28 @@ body {
 /* Catalog */
 /* Hotels filter */
 
+.hotels-filter-form {
+  display: flex;
+  justify-content: space-between;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.hotels-filter-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-apply {
+  display: block;
+  width: 191px;
+}
+
+.button-reset {
+  display: block;
+  width: 191px;
+}
+
 .hotels-filter {
   color: #ffffff;
   background-color: #000000;
@@ -374,7 +396,14 @@ body {
 
 /* Search result */
 
+.search-result-header {
+  display: flex;
+  width: 1060px;
+}
+
 .search-result-text {
+  width: 338px;
+  margin-right: 200px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -383,12 +412,30 @@ body {
 }
 
 .select-control {
+  width: 292px;
   font-size: inherit;
   line-height: inherit;
   color: inherit;
 }
 
+.view-change-wrapper {
+  width: 160px;
+  margin-left: auto;
+}
+
 /* Hotel list */
+
+.hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-card {
+  width: 340px;
+}
 
 .hotel-card-link {
   text-decoration: none;
